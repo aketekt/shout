@@ -1,0 +1,10 @@
+<div>
+  <shouts-input></shouts-input>
+  <ul>
+    <li *ngFor="let shout of shouts">
+      <p>{{shout.text}}</p>
+      <p>{{shout.location}}</p>
+      <p>{{shout.time}}</p>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,12 @@
+<form [formGroup]="addForm" (ngSubmit)="addShout()">
+  <lable>Text</lable>
+  <input type="text" formControlName="text">
+
+  <lable>Location</lable>
+  <input type="text" formControlName="location">
+
+  <label>Time</label>
+  <input type="text" formControlName="time">
+
+    <button type="submit">Shout</button>
+</form>
